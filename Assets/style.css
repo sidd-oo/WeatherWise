@@ -7,13 +7,21 @@
     font-family: Poppins;
 }
 
+body{
+    background-image:url('https://images.unsplash.com/photo-1469594292607-7bd90f8d3ba4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
 header{
-    background-color: rgb(4,111,148);
+    background-color: rgb(17, 17, 51, 0.2);
     width:100%;
     height:12vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index:2;
 }
 
 #logo{
@@ -32,46 +40,47 @@ header div h3{
 }
 
 #searchBar{
-    margin-left:50%;
+    margin:50px 450px 20px 465px;
+    text-align: center;
+    height:30px;
+    width: 20rem;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom:2px rgb(85, 96, 255) solid;
 }
 
-#Container{
-    background:linear-gradient(to right,rgb(63, 169, 204),rgb(56, 170, 202));
+#container{
     height:88vh;
     width:100%;
-    padding:60px;
 }
 
-.Cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:10px;
-}
-
-.smallCards{
-    background-color:white;
+.display{
+    height:300px;
     width:25%;
-    height:150px;
-    margin: 20px 10px;
-    border-radius: 20px;
-    color:darkblue;
-    box-shadow: 5px 5px 5px grey;
-    padding: 20px 20px;
-
-}
-
-.largeCards{
-    background-color:rgba(63, 63, 243, 0.8);
-    width:75%;
-    height:150px;
-    margin: 20px 10px;
-    border-radius: 20px;
+    margin:0px auto;
     color:white;
-    box-shadow: 5px 5px 5px grey;
-    padding: 20px 20px;
-
+    text-align: center;
+    padding:20px 20px;
+    background-color: rgb(17, 17, 51, 0.8);
+    border-radius: 30px;
 }
 
+#cityname{
+    font-size: 30px;
+}
 
+#date-time{
+    font-size: 15px;
+}
 
+#temp{
+    font-size: 70px;
+}
+
+#min-max{
+    font-size: 30px;
+}
+
+#desc{
+    font-size: 20px;
+}

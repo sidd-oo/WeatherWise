@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/style.css">
-    <script async defer src="Assets/js/app.js"></script>
     <title>Weather App</title>
 </head>
 <body>
@@ -16,15 +15,18 @@
             <h3>THE WEATHER APP</h3>
         </div>
         
-        <input type="text" id = "searchBar">
+        
     </header>
-    <section id = "Container">
-        <ul>
-            <li class = "Cards">
-                <div class = "smallCards">A</div>
-                <div class = "largeCards">B</div>
-            </li>
-        </ul>
+    <section id = "container">
+        <input type="text" id = "searchBar">
+        <div class = "display">
+            <h3 id ="cityname">Michigan, US</h3>
+            <h5 id = "date-time">Wednesday, 31 March 2021</h5>
+            <h1 id = "temp">1&#176; C</h1>
+            <h5 id = "min-max">1&#176;C / 8&#176;C</h5>
+            <h3 id = "desc">Clouds</h3>
+        </div>
     </section>
+    <script src="Assets/js/app.js"></script>
 </body>
 </html>
