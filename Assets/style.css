@@ -33,10 +33,10 @@ header{
 
 header div h3{
     float:right;
-    margin-top: 30px;
-    color: rgba(255, 255, 255, 0.726);
-    font-size: 18px;
-    font-weight: 500;
+    margin-top: 20px;
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 #searchBar{
@@ -74,24 +74,24 @@ header div h3{
 
 #cityname{
     font-size: 30px;
+    font-weight: 500;
     color:white;
 }
 
 #date-time{
-    font-size: 15px;
-    color:rgb(172, 171, 171);
-    padding:5px;
+    font-size: 17px;
+    font-weight: 500;
+    color:rgb(77, 241, 7);
 }
 
 #temp{
     font-size: 50px;
+    font-weight: 600;
     color: rgb(251, 177, 39);
-    padding:5px;
 }
 
 #min{
     font-size: 25px;
-    padding-top:5px;
     color:rgb(251, 71, 39)
 }
 
@@ -104,5 +104,9 @@ header div h3{
 
 #desc{
     padding:5px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+p:hover{
+    transform: scale(1.005);
 }

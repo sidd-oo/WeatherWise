@@ -26,7 +26,8 @@ const renderPage = (data)=>{
     tempElem.innerHTML = data.main.temp + "&#176;C"
     minElem.innerHTML = data.main.temp_min + "&#176;C / "
     maxElem.innerHTML = data.main.temp_max + "&#176;C"
-    descElem.innerText = data.weather[0].description
+    description = `${data.weather[0].description}`
+    descElem.innerText = description.toUpperCase()
     Weatherdata = data
 }
 
@@ -35,7 +36,6 @@ const errorPage = (err)=>{
     dateElem.innerText = ""
     tempElem.innerText = ""
     minElem.style.fontSize ="23px"
-    minElem.style.color ="orange"
     minElem.innerText = "Entered input does't exist"
     maxElem.innerText = ""
     descElem.style.fontSize = "15px"
