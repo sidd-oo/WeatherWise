@@ -8,13 +8,13 @@ const descElem = document.querySelector('#desc')
 const imgElem = document.querySelector('img')
 let city = "New Delhi"
 let apiKey = 'd7df84db6ca7626981f283cc3ac07d71'
-dateElem.innerText = new Date()
 
 searchBar.addEventListener('keypress',(e)=>{
     if(e.key === 'Enter'){
         city = e.target.value
         console.log(city)
         getData(city)
+        e.target.value = ""
     }
 })
 

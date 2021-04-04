@@ -67,8 +67,9 @@ header div h3{
     color:white;
     text-align: center;
     padding:20px 20px;
-    background-color: rgb(17, 17, 51, 0.8);
+    background-color: rgb(17, 17, 51, 0.7);
     border-radius: 30px;
+    box-shadow: 0.5px 0.5px 1000px whitesmoke;
 }
 
 #cityname{
@@ -91,13 +92,13 @@ header div h3{
 #min{
     font-size: 25px;
     padding-top:5px;
-    color:rgb(182, 179, 179)
+    color:rgb(251, 71, 39)
 }
 
 #max{
     font-size: 25px;
     padding-top:5px;
-    color:rgb(182, 179, 179)
+    color :rgb(251, 71, 39)
 }
 
 
